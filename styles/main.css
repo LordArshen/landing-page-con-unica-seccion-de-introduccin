@@ -41,7 +41,11 @@ main .main-description button{
     color:  hsl(257, 40%, 49%);
     border-radius: 50px;
     box-shadow: 0 20px 20px 0 #0f131e47;
-    
+    cursor: pointer;
+}
+main .main-description button:hover{
+    background-color:  #a04ec9;
+    color: white;
 }
 
 
