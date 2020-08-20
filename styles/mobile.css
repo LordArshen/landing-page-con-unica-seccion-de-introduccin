@@ -1,7 +1,7 @@
 body{
-    max-width:375px;
+    
     margin: 0;
-    margin-left: 100px;
+   
     padding: 0;
     background:  hsl(257, 40%, 49%);
     background-image: url('/images/bg-mobile.svg');
@@ -10,7 +10,12 @@ body{
 }
 
 header{
-    margin: 50px auto;
+    margin: 20px auto;
+    
+}
+
+header .header-logo{
+    width: 50%;
 }
 
 main{
@@ -22,18 +27,20 @@ main .main-view-logo img{
     width: 100%;
 }
 main .main-description{
-    width: 100%;
+    
     text-align: center;
+    margin: 0px 10px;
 }
 main .main-description h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 18px;
     text-transform: capitalize;
+    margin-top: 20px ;
 }
 
 main .main-description p{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 main .main-description button{
@@ -41,7 +48,7 @@ main .main-description button{
     width: 200px;
     background-color: white;
     border: 0;
-    font-size: 18px;
+    font-size: 14px;
     color:  hsl(257, 40%, 49%);
     border-radius: 50px;
     box-shadow: 0 20px 20px 0 #0f131e47;
@@ -52,7 +59,7 @@ main .main-description button{
 footer{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 

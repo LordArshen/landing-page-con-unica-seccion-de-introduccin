@@ -1,9 +1,8 @@
 
 
 body{
-    width: 1440px;
-    margin: 0;
-    margin-left: 100px;
+    height: 100vh;
+    margin: 0 20px;
     padding: 0;
     background:  hsl(257, 40%, 49%);
     background-image: url('/images/bg-desktop.svg');
@@ -32,7 +31,8 @@ main .main-description p{
 }
 
 main .main-description button{
-    height: 38px;
+    height: 50px;
+    margin-top: 20px;
     width: 200px;
     background-color: white;
     border: 0;
@@ -47,6 +47,7 @@ main .main-description button{
 footer{
     display: flex;
     justify-content: flex-end;
+    margin-top: 30px;
 }
 
 
